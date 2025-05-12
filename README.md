@@ -1633,3 +1633,13 @@ this.showError("Invalid Credentials")
 
 }
 
+--------------------------------------------------
+"styles": [
+  "node_modules/primeng/resources/themes/lara-light-green/theme.css",
+  "node_modules/primeng/resources/primeng.min.css",
+  "node_modules/primeicons/primeicons.css",
+  "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+  "src/styles.css"
+]
+
+

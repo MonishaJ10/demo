@@ -625,7 +625,287 @@ this.router,navigateByUrl('home')
 }
 }
 
-sidebar.comp.html-not yet scanned
+sidebar.comp.html
+<div class="container"s
+
+<div class="card flex justify-content-center">
+
+<p-sidebar #sidebarRef [(visible)]-"sidebarVisible">
+
+<ng-template pTemplate="headless">
+
+<div class="flex flex-column h-full">
+
+<div class="flex align-items-center justify-content-between px-4 pt-3 flex-shrink-8">
+
+<span class="inline-flex align-items-center gap-2">
+
+<span class="font-semibold text-2x1 text-primary">Recon NextGen </span>
+
+</span>
+
+<span>
+
+<p-button type="button" (onClick)="closeCallback($event)" icon-"pi pi-times" rounded="true" outlined="true" styleClass="h-2rem w-2rem"></p-button:
+
+</span>
+
+</div>
+
+<div class="overflow-y-auto">
+
+<ul class="list-none p-3 m-0">
+
+<11 (click)="navigateToPath('home')">
+
+<div
+
+class="p-3 flex align-items-center justify-content-between text-600 cursor-pointer p-ripple"
+
+<span class="font-medium">Home</span>
+
+</div>
+
+</li>
+
+</ul>
+
+<ul class="list-none p-3 m-0 ">
+
+<11>
+
+<div
+
+pRipple
+
+pStyleClass="@next"
+
+enterClass="hidden"
+
+enterActiveClass="slidedown"
+
+leaveToClass="hidden"
+
+leaveActiveClass="slideup"
+leaveActiveClass="slideup"
+
+class="p-3 flex align-items-center justify-content-between text-600 cursor-pointer p-ripple"
+
+<span class="font-medium">Matching</span>
+
+<i class="pi pi-chevron-down"></i>
+
+</div>
+
+<ul class="list-none p-e m-0 hidden overflow-hidden">
+
+<11 (click)-"navigateToPath("match")">
+
+<a pRipple class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple">
+
+<span class="font-medium">One to One</span>
+
+</a>
+
+<</11>>
+
+<11 (click)-"navigateToPath('dragmatch')">
+
+<a pRipple class="flex align-items-center cursor-pointer p-3 border-round text-700 hover: surface-100 transition-duration-150 transition-colors p-ripple">
+
+<span class="font-medium">2</span>
+
+</a>
+
+<</11>>
+
+<<11>>
+
+<a
+
+pRipple
+
+pStyleClass="@next"
+
+enterClass="hidden"
+
+enterActiveClass="slidedown"
+
+leaveToClass="hidden"
+
+leaveActiveClass="slideup"
+
+class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple"
+
+<span class="font-medium">Reports</span>
+
+<i class="pi pi-chevron-down ml-auto"></i>
+
+intent-center>
+
+le)]="sidebarVisible">
+
+adless
+
+column h-full">
+
+<i class="pi pi-chevron-down ml-auto"></i>
+
+</a>
+
+<ul class="list-none py-8 p1-3 pr-8 m- hidden overflow-y-hidden transition-all transition-duration-488 transition-ease-in-out">
+
+<11>
+
+pRipple
+
+pStyleClass="@next"
+
+enterClass="hidden"
+
+enterActiveClass="slidedown"
+
+leaveToClass="hidden"
+
+leaveActiveClass="slideup"
+
+class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple"
+
+<span class="font-medium">Sub</span>
+
+<i class="pi pi-chevron-down ml-auto"></i>
+
+</a>
+
+<ul class="list-none py-8 p1-3 pr-0 m-8 hidden overflow-y-hidden transition-all transition-duration-400 transition-ease-in-out">
+
+<11>>
+
+<a pRipple class="flex align-items-center cursor-pointer p-3 border-round text-788 hover: surface-100 transition-duration-158 transition-colors p-ripple">
+
+</a>
+
+<span class="font-medium">1</span>
+
+<</11>
+
+<li>
+
+<a pRipple class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-158 transition-colors p-ripple">
+
+</a>
+
+<span class="font-medium">2</span>
+
+</li>
+
+</ul>
+
+</11>
+
+<li>
+
+<li>
+
+<a pRipple class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple">
+
+<span class="font-medium">Summary</span>
+
+</a>
+
+</li>
+
+</ul>
+
+li>
+
+</ul>
+
+<111>
+
+<701>
+
+<ul class="list-none p-3 m-8">
+
+<11>
+
+<div
+
+pRipple
+
+pStyleClass-"@next"
+
+enterClass="hidden"
+
+enterActiveClass="slidedown"
+
+leaveToClass="hidden"
+
+leaveActiveClass="slideup"
+
+class="p-3 flex align-items-center justify-content-between text-600 cursor-pointer p-ripple"
+
+<span class="font-medium">Parameters</span>
+
+<i class="pi pi-chevron-down"></i>
+
+</div>
+
+<ul class="list-none p-0 m-e hidden overflow-hidden">
+
+<11 (click)-"navigateToPath('exclusion')">
+
+<a
+
+I
+
+pRipple class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple"
+
+<span class="font-medium" Exclusion Rules</span>
+
+</a>
+
+</11>>
+
+<11>
+
+<a pRipple class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple"
+
+<span class="font-medium">Updation Rules</span>
+
+</a>
+
+</li>
+
+<li>
+
+<a pRipple class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple">
+
+<span class="font-medium">Updation Rules</span>
+
+</a>
+
+</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</ng-template>
+
+</p-sidebar>
+
+<p-button styleClass="h-2rem w-3rem hello" (onClick)="sidebarVisible = true" icon="pi pi-bars"></p-button>
+
+</div>
+
+</div>
 
 layout.component.css
 .layout{
